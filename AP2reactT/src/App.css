@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 60%;
+}
+
+.card h2, .card p {
+  color: black; 
+}
+
+.card {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 35%;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: black; 
+}
+
+form input[type="text"],
+form input[type="checkbox"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #131010;
+  border-radius: 5px;
+  color: black; 
+}
+
+form input::placeholder {
+  color: black; 
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  width: 100%;
+}
+
+button[type="button"] {
+  margin-top: 5px;
+}
